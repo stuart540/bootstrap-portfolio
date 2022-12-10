@@ -19,6 +19,8 @@ h2 {
     background-image: url("../images/Climbing.JPG");
     background-size: cover;
     background-position: center;
-    color:  #3c4143;
+    color: azure;
+    text-shadow: 2px 2px 5px black;
+    opacity: 0.8;
 }
 
