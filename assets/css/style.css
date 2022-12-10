@@ -9,3 +9,11 @@ body {
 .nav-item {
     padding-right: 2rem;
 }
+
+#header {
+    background-image: url("../images/Climbing.JPG");
+    background-size: cover;
+    background-position: center;
+    color:  #3c4143;
+}
+
