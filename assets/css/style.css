@@ -10,6 +10,11 @@ body {
     padding-right: 2rem;
 }
 
+h2 {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
 #header {
     background-image: url("../images/Climbing.JPG");
     background-size: cover;
