@@ -26,3 +26,47 @@ h2 {
     opacity: 0.8;
 }
 
+/* Card Styling Start */
+
+.btn {
+    opacity: 0;
+}
+
+.card-body {
+    background-color: black;
+    opacity: .7;
+    border-radius: 0em 0em 1em 1em;
+}
+
+.card-title {
+    color: white;
+
+}
+
+.card-text {
+    color: whitesmoke;
+}
+
+.card {
+    background-image: url(/assets/images/Climbing.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1em;
+
+}
+
+#horiseon {
+    background-image: url(/assets/images/stuart540.github.io_code-refactor-horiseon_.png);
+}
+
+img {
+    opacity: 0;
+}
+
+.p-2 { 
+    align-content: space-between;
+
+}
+
+/* Card Styling End */
