@@ -1,6 +1,3 @@
-body {
-
-}
 
 .navbar-brand {
     padding-right: 13em;
@@ -8,6 +5,10 @@ body {
 
 .nav-item {
     padding-right: 2rem;
+}
+
+.jumbotron {
+    height: calc(100vh - 100px)
 }
 
 h2 {
