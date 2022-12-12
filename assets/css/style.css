@@ -11,7 +11,9 @@
     height: calc(100vh - 100px)
 }
 
-h2 {
+h2,
+h4 {
+    font-size: 2em;
     min-width: 5em;
     text-decoration: underline;
     text-underline-position: under;
@@ -60,6 +62,7 @@ h2 {
 
 }
 
+
 /* #horiseon {
     background-image: url(/assets/images/stuart540.github.io_code-refactor-horiseon_.png);
 } */
@@ -71,3 +74,5 @@ h2 {
 } */
 
 /* Card Styling End */
+
+/* Footer Styling */
