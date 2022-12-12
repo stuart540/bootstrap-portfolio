@@ -26,13 +26,15 @@ h2 {
     opacity: 0.8;
 }
 
-/* Card Styling Start */
+
 
 
 /* Remove button from cards */
 .cardContainer .btn {
     opacity: 0;
 }
+
+/* Card Styling Start */
 
 .card-body {
     background-color: black;
@@ -54,7 +56,7 @@ h2 {
     margin: 1em;
     margin-bottom: 2em;
     border-radius: 1em;
-    box-shadow: 0.5em 0.5em rgb(196, 202, 203);
+    box-shadow: 5px 5px 10px gray;
 
 }
 
@@ -62,6 +64,8 @@ h2 {
     background-image: url(/assets/images/stuart540.github.io_code-refactor-horiseon_.png);
 }
 
+
+/* hide top picture */
 img {
     opacity: 0;
 }
