@@ -21,14 +21,16 @@ h2 {
     background-image: url("../images/Climbing.JPG");
     background-size: cover;
     background-position: center;
-    color: azure;
+    color: whitesmoke;
     text-shadow: 2px 2px 5px black;
     opacity: 0.8;
 }
 
 /* Card Styling Start */
 
-.btn {
+
+/* Remove button from cards */
+.cardContainer .btn {
     opacity: 0;
 }
 
@@ -38,13 +40,10 @@ h2 {
     border-radius: 0em 0em 1em 1em;
 }
 
-.card-title {
-    color: white;
-
-}
-
+.card-title,
 .card-text {
     color: whitesmoke;
+
 }
 
 .card {
@@ -52,7 +51,10 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 1em;
+    margin-bottom: 2em;
     border-radius: 1em;
+    box-shadow: 0.5em 0.5em rgb(196, 202, 203);
 
 }
 
@@ -62,11 +64,6 @@ h2 {
 
 img {
     opacity: 0;
-}
-
-.p-2 { 
-    align-content: space-between;
-
 }
 
 /* Card Styling End */
