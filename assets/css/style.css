@@ -49,7 +49,7 @@ h2 {
 }
 
 .card {
-    background-image: url(/assets/images/Climbing.JPG);
+    background-image: url(/assets/images/placeholder.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,14 +60,14 @@ h2 {
 
 }
 
-#horiseon {
+/* #horiseon {
     background-image: url(/assets/images/stuart540.github.io_code-refactor-horiseon_.png);
-}
+} */
 
 
 /* hide top picture */
-img {
+/* img {
     opacity: 0;
-}
+} */
 
 /* Card Styling End */
