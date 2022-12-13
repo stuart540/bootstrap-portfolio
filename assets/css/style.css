@@ -52,7 +52,7 @@ h4 {
 }
 
 .card {
-    background-image: url(/assets/images/placeholder.jpg);
+    background-image: url(../assets/images/placeholder.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
