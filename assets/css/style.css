@@ -1,4 +1,5 @@
 
+/* nav styling start */
 .navbar-brand {
     padding-right: 13em;
 }
@@ -6,10 +7,19 @@
 .nav-item {
     padding-right: 2rem;
 }
+/* nav styling end */
 
+/* hero banner start */
 .jumbotron {
-    height: calc(100vh - 100px)
+    background-image: url("../images/Climbing.JPG");
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 100px);
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px black;
+    opacity: 0.8;
 }
+/* hero banner end */
 
 h2,
 h4 {
@@ -20,22 +30,8 @@ h4 {
     color: gray;
 }
 
-#header {
-    background-image: url("../images/Climbing.JPG");
-    background-size: cover;
-    background-position: center;
-    color: whitesmoke;
-    text-shadow: 2px 2px 5px black;
-    opacity: 0.8;
-}
 
 
-
-
-/* Remove button from cards */
-.cardContainer .btn {
-    opacity: 0;
-}
 
 /* Card Styling Start */
 
@@ -67,15 +63,23 @@ h4 {
     opacity: 0.8;
 }
 
+/* Remove buttons from cards */
+.cardContainer .btn {
+    opacity: 0;
+}
 
-/* #horiseon {
+
+#horiseon {
     background-image: url(/assets/images/stuart540.github.io_code-refactor-horiseon_.png);
-} */
+}
 
+img {
+    opacity: 0;
+}
 
 /* Card Styling End */
 
-/* Footer Styling */
+/* Footer Styling  Start */
 
 .icon-links {
     display: flex;
@@ -99,3 +103,4 @@ i {
 i:hover {
     color: black;
 }
+/* Footer Styling End */
