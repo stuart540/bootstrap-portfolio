@@ -64,7 +64,7 @@ h4 {
 }
 
 .card:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 
@@ -73,25 +73,27 @@ h4 {
 } */
 
 
-/* hide top picture */
-/* img {
-    opacity: 0;
-} */
-
 /* Card Styling End */
 
 /* Footer Styling */
 
+.icon-links {
+    display: flex;
+    justify-content:space-around;
+}
+
 .nav-icon {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
    
 }
 
+/* icon styling */
+
 i {
     color: gray;
+    font-size: 3em;
 }
 
 i:hover {
